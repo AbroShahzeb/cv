@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: aliceblue;
+    font-family: sans-serif;
+    padding: 4rem;
+}
+
+.header {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+
+.header_profile img {
+    height: 30rem;
+    border-radius: 2rem;
+    margin-right: 3rem;
+}
+
+.header_content {
+    font-size: 4rem;
+    color: rgb(13, 13, 82);
+    display: flex;
+    flex-direction: column;
+}
+
+.header_content p {
+    font-size: 1.4rem;
+    color: rgba(13, 13, 82, .5);
+}
+
+.btns {
+    justify-self: flex-end;
+    margin-top: 4rem;
+    cursor: pointer;
+}
+
+button {
+    padding: 1rem 2.5rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid rgb(13, 13, 82);
+}
+
+.know {
+    background-color: transparent;
+}
+
+.contact {
+    background-color: rgb(13, 13, 82);
+    color: aliceblue;
+}
