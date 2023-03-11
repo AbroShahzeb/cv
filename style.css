@@ -63,3 +63,24 @@ button {
     background-color: rgb(13, 13, 82);
     color: aliceblue;
 }
+
+@media only screen  and (max-width: 480px) {
+    .header {
+        flex-direction: column;
+        width: 90%;
+        align-items: center;
+    }
+
+    .header_profile img {
+        margin-right: 0;
+        margin-bottom: 3rem;
+    }
+
+    .header_content {
+        text-align: center;
+    }
+    .header_content h1 {
+        font-size: 3.5rem;
+        margin-bottom: 2rem;
+    }
+  }
